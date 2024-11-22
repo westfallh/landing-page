@@ -5,6 +5,9 @@
 body {
     margin: 0;
 }
+
+/* header */
+
 .header {
     display: flex;
     align-items: center;
@@ -27,9 +30,47 @@ body {
     font-size: 18px;
 }
 
+/* container1 - hero text */
+
 a {
     text-decoration: none;
     color: #E5E7EB;
 }
 
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 400px;
+    gap: 150px;
+}
+
+.container1left {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 10px;
+}
+.herotext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.herosubtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 450px;
+}
+button {
+    background-color: #3882F6;
+    width: 125px;
+    border-radius: 12px;
+    border-style: none;
+    color: #F9FAF8;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+}
+
+/* container2 - information header */
 
