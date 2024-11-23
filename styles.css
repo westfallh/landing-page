@@ -15,11 +15,11 @@ body {
     margin: 0;
     padding: 0;
     padding: 0px 98px 0px 98px;
-
+    justify-content: center;
+    gap: 300px;
 }
 .headerlogo {
     font-size: 24px;
-    flex-grow: 1;
     color: #F9FAF8;
 }
 
@@ -30,12 +30,16 @@ body {
     font-size: 18px;
 }
 
-/* container1 - hero text */
-
 a {
     text-decoration: none;
     color: #E5E7EB;
 }
+
+.heroimage > img{
+    border: none;
+}
+
+/* container1 - hero text */
 
 .container1 {
     display: flex;
@@ -73,4 +77,42 @@ button {
 }
 
 /* container2 - information header */
+.container2 {
+    height: 400px;
+}
+.informationheader {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.images {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.images > ul{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    padding: 0;
+}
+
+p {
+    width: 150px;
+    text-align: center;
+    color: gray;
+}
+
+img {
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 5px;
+}
