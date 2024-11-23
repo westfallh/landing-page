@@ -142,36 +142,37 @@ img {
 }
 
 /* container 4 - call to action */
-
-.container4all{
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .container4{
     background-color: #3882F6;
-    width: 800px;
-}
-
-.container4left{
+    border-radius: 15px;
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    padding: 32px 160px 32px 160px;
+    margin: 96px 360px;
+    border-radius: 15px;
+}
+
+.container4content{
+    display:flex;
     flex-direction: column;
-}
-.calltoaction {
-     font-size: 18px;
-     color: #F9FAF8;
+    color:#F9FAF8;
+    gap: 8px;
 }
 
-.container4 > p{
-    font-size: 14px;
-    max-width: fit-content;
+.calltoaction{
+    font-size: 18px;
+    font-weight: 600;
 }
 
+.container4subtext{
+    font-weight: 100;
+}
+
+.signupbutton {
+    border: 1px solid white;
+    align-self: center;
+}
 /*footer*/
 
 .footer {
